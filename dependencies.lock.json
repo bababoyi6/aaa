@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-21",
+  "template_sing_box_min": "1.14.3",
+  "template_sing_box_max_exclusive": "1.15.0",
+  "dependencies": {
+    "sing-box": {
+      "repository": "SagerNet/sing-box",
+      "version": "v1.14.3",
+      "assets": {
+        "amd64": {
+          "name": "sing-box-1.14.3-linux-amd64.tar.gz",
+          "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.3/sing-box-1.14.3-linux-amd64.tar.gz",
+          "sha256": "e2bdf179c15a3652955dc44867e33ca0965c9c9b91b34267dcc5a5d639a5feee"
+        },
+        "arm64": {
+          "name": "sing-box-1.14.3-linux-arm64.tar.gz",
+          "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.3/sing-box-1.14.3-linux-arm64.tar.gz",
+          "sha256": "29dae24d76bea3bc62d07dd3e60cfc12003de7debbd6b768df9be9c68360174e"
+        }
+      }
+    },
+    "caddy": {
+      "repository": "caddyserver/caddy",
+      "version": "v2.11.7",
+      "assets": {
+        "amd64": {
+          "name": "caddy_2.11.7_linux_amd64.tar.gz",
+          "url": "https://github.com/caddyserver/caddy/releases/download/v2.11.7/caddy_2.11.7_linux_amd64.tar.gz",
+          "sha256": "727b91701a392de6ebc5027509f548bf39979e5216340d0faed8fa5e69c84f8b"
+        },
+        "arm64": {
+          "name": "caddy_2.11.7_linux_arm64.tar.gz",
+          "url": "https://github.com/caddyserver/caddy/releases/download/v2.11.7/caddy_2.11.7_linux_arm64.tar.gz",
+          "sha256": "d8fc6d179a5d283028a472a5618564f6ad8a86fed513e64f032b3b0b7cc45e42"
+        }
+      }
+    },
+    "lego": {
+      "repository": "go-acme/lego",
+      "version": "v5.5.2",
+      "assets": {
+        "amd64": {
+          "name": "lego_v5.5.2_linux_amd64.tar.gz",
+          "url": "https://github.com/go-acme/lego/releases/download/v5.5.2/lego_v5.5.2_linux_amd64.tar.gz",
+          "sha256": "2a35505089e7772c92e1e9ac144df91151ef2eca8568630db0ff91fca06d9bef"
+        },
+        "arm64": {
+          "name": "lego_v5.5.2_linux_arm64.tar.gz",
+          "url": "https://github.com/go-acme/lego/releases/download/v5.5.2/lego_v5.5.2_linux_arm64.tar.gz",
+          "sha256": "15b14ec2ab14fde69cc8396eb0204c5ce4327e31a486953225a6059b26db3e8c"
+        }
+      }
+    }
+  },
+  "validation": {
+    "mihomo": {
+      "repository": "MetaCubeX/mihomo",
+      "version": "v1.19.32",
+      "assets": {
+        "amd64": {
+          "name": "mihomo-linux-amd64-compatible-v1.19.32.gz",
+          "url": "https://github.com/MetaCubeX/mihomo/releases/download/v1.19.32/mihomo-linux-amd64-compatible-v1.19.32.gz",
+          "sha256": "ba3ce607747a07f948fc35780e108a4a7c7f552a38b9bd4d115f313ebcb89c20"
+        },
+        "arm64": {
+          "name": "mihomo-linux-arm64-v1.19.32.gz",
+          "url": "https://github.com/MetaCubeX/mihomo/releases/download/v1.19.32/mihomo-linux-arm64-v1.19.32.gz",
+          "sha256": "9dd862e28b46ff7d775f169cceebc28deccaa0a9e804237d421cd2571e0caba0"
+        }
+      }
+    }
+  }
+}
